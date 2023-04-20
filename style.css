@@ -85,7 +85,7 @@
 /* Heading */
 .todo__incomplete-title, 
 .todo__completed-title, 
-.todo__add-label {
+.todo__add-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -113,7 +113,7 @@
 }
 
 /* New Task */
-.todo__add-label {
+.todo__add-title {
   display: block;
   margin: 0 0 20px;
 }
