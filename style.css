@@ -22,7 +22,7 @@
   .matrix { 
     text-align: center;
   }
-  
+
 }
 .todo {
   display: block;
@@ -38,14 +38,14 @@
   display: flex;
 }
 .todo__incomplete-list, .todo__completed-list{
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .todo__item, .todo__incomplete-title, .todo__completed-title {
-  list-style:none;
+  list-style: none;
 }
 .todo__task, .todo__checkbox, .todo__add-btn, .todo__edit-btn, .todo__delete-btn{
-  outline:none;
+  outline: none;
 }
 .todo__add-btn, .todo__edit-btn, .todo__delete-btn {
   background: none;
@@ -137,14 +137,14 @@
 
 /* Edit Task */
 .todo__item .todo__task-input {
-  display:none
+  display: none
 }
 
 .todo__item.todo__item_edit .todo__task-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .todo__item.todo__item_edit .todo__task-label {
-  display:none;
+  display: none;
 }
