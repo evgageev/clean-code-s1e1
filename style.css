@@ -20,12 +20,12 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
-  .matrix { 
+  .matrix {
     text-align: center;
   }
-
+  
 }
 
 .todo {
@@ -37,35 +37,35 @@
 .todo__task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .todo__task-wrapper {
   display: flex;
 }
 
-.todo__incomplete-list, 
+.todo__incomplete-list,
 .todo__completed-list {
   margin: 0;
   padding: 0px;
 }
 
-.todo__item, 
-.todo__incomplete-title, 
+.todo__item,
+.todo__incomplete-title,
 .todo__completed-title {
   list-style: none;
 }
 
-.todo__task, 
-.todo__checkbox, 
-.todo__add-btn, 
-.todo__edit-btn, 
+.todo__task,
+.todo__checkbox,
+.todo__add-btn,
+.todo__edit-btn,
 .todo__delete-btn {
   outline: none;
 }
 
-.todo__add-btn, 
-.todo__edit-btn, 
+.todo__add-btn,
+.todo__edit-btn,
 .todo__delete-btn {
   background: none;
   border: 0px;
@@ -76,15 +76,15 @@
   cursor: pointer;
 }
 
-.todo__add-btn:hover, 
-.todo__edit-btn:hover, 
+.todo__add-btn:hover,
+.todo__edit-btn:hover,
 .todo__delete-btn:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
-.todo__incomplete-title, 
-.todo__completed-title, 
+.todo__incomplete-title,
+.todo__completed-title,
 .todo__add-title {
   color: #333;
   font-weight: 700;
@@ -123,7 +123,7 @@
 }
 
 /* Task list */
-.todo__item  {
+.todo__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -132,9 +132,9 @@
   align-items: center;
 }
 
-.todo__item > .todo__checkbox, 
-.todo__task, 
-.todo__edit-btn, 
+.todo__item > .todo__checkbox,
+.todo__task,
+.todo__edit-btn,
 .todo__delete-btn {
   vertical-align: middle;
 }
@@ -151,7 +151,7 @@
 }
 
 .todo__item > .todo__task-input {
-  width: 226px
+  width: 226px;
 }
 
 .todo__delete-btn .todo__img {
@@ -172,12 +172,12 @@
 
 /* Edit Task */
 .todo__item .todo__task-input {
-  display: none
+  display: none;
 }
 
 .todo__item.todo__item_edit .todo__task-input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .todo__item.todo__item_edit .todo__task-label {
